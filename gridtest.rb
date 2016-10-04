@@ -17,7 +17,7 @@ describe "ExampleSeleniuTestSuite" do
         # -- Defines the Selenium WebDriver details
         @selenium_driver = Selenium::WebDriver.for(
           :remote,
-          url: 'http://localhost:4444/wd/hub',
+          url: 'http://192.168.1.206:4444/wd/hub',
           desired_capabilities: :chrome) # you can also use :chrome, :safari, etc.
 
     end
